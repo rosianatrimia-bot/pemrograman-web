@@ -1,1 +1,1 @@
-git add . || git commit -m "Tugas Web" || git push
+git add .; git commit -m "Tugas Web"; git push
