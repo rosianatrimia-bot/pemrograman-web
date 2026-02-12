@@ -1,4 +1,4 @@
-body {background-color: rgba(26, 139, 120, 0.568);}
+body {font-family:"Avenir Text"}
 h1   {
     color:#626bbe;
     font-size:40px;
@@ -8,4 +8,23 @@ p    {
     color:#0000ff;
     font-size:20px;
     font-family:"Lucida Grande";
+}
+li {
+    list-style: none;
+    float: left;
+}
+.header {
+    background-color: #26d0c9;
+    color: #fff;
+    height: 90px;
+}
+.header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px40px
+}
+
+.header-list li {
+    float: left;
+    padding: 33px20px;
 }
