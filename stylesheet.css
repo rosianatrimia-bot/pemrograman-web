@@ -1,11 +1,11 @@
 body {font-family:"Avenir Text"}
 h1   {
-    color:#626bbe;
+    color:#91417f;
     font-size:40px;
     font-family:"serif";
 }
 p    {
-    color:#0000ff;
+    color:#91417f;
     font-size:20px;
     font-family:"Lucida Grande";
 }
@@ -27,4 +27,68 @@ li {
 .header-list li {
     float: left;
     padding: 33px 20px;
+}
+
+.footer {
+    background-color:#ecb9a9;
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    padding: 100px 80px;
+}
+
+.copy-container h1 {
+    font-size: 140px;
+}
+
+.copy-container h2 {
+    font-size: 60px;
+}
+
+.copy-container span {
+    color: beige;
+}
+
+.contents {
+    height: 500px;
+    margin-top: 100px;
+}
+
+.section-tittle {
+    border-bottom: 2px solid #91417f;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.contens-item {
+    float: left;
+    margin-right: 40px;
+}
+
+.contents-item p {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.contact-form {
+    padding-top: 100px;
+}
+input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #91417f;
+}
+
+.contact-submit {
+    background-color: bisque;
+    color: #91417f;
 }
