@@ -19,9 +19,11 @@ li {
 }
 .header-logo {
     float: left;
-    font-size: 36px;
-    padding: 20px 40px
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
+
 
 .header-list li {
     float: left;
@@ -35,6 +37,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 30px;
 }
 
 .main {
