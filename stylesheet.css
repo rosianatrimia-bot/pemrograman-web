@@ -11,7 +11,6 @@ p    {
 }
 li {
     list-style: none;
-    float: left;
 }
 .header {
     background-color: #26d0c9;
@@ -55,7 +54,7 @@ li {
 }
 
 .contents {
-    height: 500px;
+    height: 100px;
     margin-top: 100px;
 }
 
@@ -66,7 +65,7 @@ li {
     margin-bottom: 50px;
 }
 
-.contens-item {
+.contents-item {
     float: left;
     margin-right: 40px;
 }
