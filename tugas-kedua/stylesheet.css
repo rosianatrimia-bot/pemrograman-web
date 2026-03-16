@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: "Lucida Grande";
@@ -8,9 +12,11 @@ a{
 }
 
 .container {
-    width: 1170px;
+    max-width: 1170px;
+    width: 100%;
     padding: 0 15px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .top-wrapper {
@@ -191,19 +197,54 @@ footer {
 }
 
 .container::after {
-  content: "";
-  display: block;
-  clear: both;
+    content: "";
+    display: block;
+    clear: both;
 }
 
 @media (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-  }
+    .lesson {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
 }
 
 @media (max-width: 670px) {
-  .lesson {
-    width: 100%;
-  }
+    .lesson {
+        width: 100%;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .top-wrapper {
+        padding: 130px 0 80px 0;
+        text-align: left;
+    }
+
+    .top-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 2px;
+    }
+
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .facebook {
+        margin-bottom: 10px;
+    }
 }
+
